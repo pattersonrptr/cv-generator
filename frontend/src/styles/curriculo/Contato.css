@@ -1,0 +1,21 @@
+.contato {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+  gap: 0 !important;
+}
+
+.contato h2 {
+  font-size: 28pt;
+}
+
+.contato p {
+  font-size: 12pt;
+  display: flex;
+  gap: 0.1cm;
+  align-items: center;
+}
+
+.contato svg {
+  font-size: 12pt;
+}
