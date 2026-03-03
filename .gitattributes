@@ -1,0 +1,13 @@
+# Default: normalize to LF on checkin
+* text=auto eol=lf
+
+# Shell scripts must always be LF
+*.sh text eol=lf
+
+# Dockerfile must be LF
+Dockerfile text eol=lf
+
+# Windows-only files can keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
