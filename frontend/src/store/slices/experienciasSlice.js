@@ -18,9 +18,12 @@ const experienciasSlice = createSlice({
     resetExperiencias() {
       return [];
     },
+    setExperiencias(_, action) {
+      return action.payload;
+    },
   },
 });
 
-export const { adicionarExperiencia, removerExperiencia, resetExperiencias } =
+export const { adicionarExperiencia, removerExperiencia, resetExperiencias, setExperiencias } =
   experienciasSlice.actions;
 export default experienciasSlice.reducer;

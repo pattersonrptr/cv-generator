@@ -1,0 +1,146 @@
+.cv-list {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.cv-list__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.cv-list__header h1 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cv-list__btn-new {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.cv-list__btn-new:hover {
+  background: #1d4ed8;
+}
+
+.cv-list__msg {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.cv-list__msg--error {
+  color: #dc2626;
+}
+
+.cv-list__empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+  border: 2px dashed #ddd;
+  border-radius: 10px;
+}
+
+.cv-list__empty p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.cv-list__empty button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.cv-list__items {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cv-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s;
+}
+
+.cv-list__item:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cv-list__item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cv-list__item-info strong {
+  font-size: 1rem;
+}
+
+.cv-list__item-info span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.cv-list__item-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.cv-list__item-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.btn-edit {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.btn-edit:hover {
+  background: #e5e7eb;
+}
+
+.btn-delete {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.btn-delete:hover {
+  background: #fecaca;
+}
