@@ -18,8 +18,11 @@ const formacoesSlice = createSlice({
     resetFormacoes() {
       return [];
     },
+    setFormacoes(_, action) {
+      return action.payload;
+    },
   },
 });
 
-export const { adicionarFormacao, removerFormacao, resetFormacoes } = formacoesSlice.actions;
+export const { adicionarFormacao, removerFormacao, resetFormacoes, setFormacoes } = formacoesSlice.actions;
 export default formacoesSlice.reducer;

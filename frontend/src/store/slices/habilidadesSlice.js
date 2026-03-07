@@ -18,9 +18,12 @@ const habilidadesSlice = createSlice({
     resetHabilidades() {
       return [];
     },
+    setHabilidades(_, action) {
+      return action.payload;
+    },
   },
 });
 
-export const { adicionarHabilidade, removerHabilidade, resetHabilidades } =
+export const { adicionarHabilidade, removerHabilidade, resetHabilidades, setHabilidades } =
   habilidadesSlice.actions;
 export default habilidadesSlice.reducer;

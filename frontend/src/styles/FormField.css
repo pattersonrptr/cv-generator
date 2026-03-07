@@ -14,3 +14,39 @@
 .field input:focus {
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
+
+.save-feedback {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin: 8px 0 4px;
+  text-align: center;
+}
+
+.save-feedback--success {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.save-feedback--error {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+.template-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+
+.template-selector select {
+  padding: 5px 8px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  background: #f9fafb;
+  cursor: not-allowed;
+}
